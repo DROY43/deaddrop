@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+
+# DeadDrop stored files and metadata
+storage/
+uploads/
+
+# Environment/secrets
+.env
+*.key
+*.pem
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
