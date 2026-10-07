@@ -77,7 +77,7 @@ The current version:
 * Uses AES-256-GCM encryption in the browser
 * Stores encrypted files on the server
 * Automatically expires files after 24 hours
-* Has a 100 MB upload limit
+* Does not have a file limit, but DeadDrop may not work properly with larger files.
 * Does not require an account
 * Does not currently delete a file after its first download
 
