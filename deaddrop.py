@@ -301,11 +301,6 @@ async def upload(
 
     data = await file.read()
 
-    if len(data) > 100 * 1024 * 1024:
-        raise HTTPException(
-            status_code=413,
-            detail="File too large"
-        )
 
     path = STORAGE / f"{token}.bin"
 
